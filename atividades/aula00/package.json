@@ -4,10 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
-  "dependencies": {
-    "express": "^5.2.1"
-  },
   "scripts": {
     "server": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
+  
 }
