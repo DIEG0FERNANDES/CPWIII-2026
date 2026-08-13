@@ -1,8 +1,18 @@
 import { Router } from "express";
 
 const router = Router();
-
 router.get("/", (req, res) => {
+  res.send(`
+        <h1>Menu</h1>
+        <a href="/inicio">Inicio</a><br>
+        <a href="/status">Status</a><br>
+        <a href="/soma">Soma</a><br>
+        <a href="/subtracao">Subtração</a><br>
+        <a href="/multiplicacao">Multiplicação</a><br>
+        `);
+});
+
+router.get("/inicio", (req, res) => {
   res.send("Seja bem vindo! Este é o servidor backend funcionando");
 });
 
