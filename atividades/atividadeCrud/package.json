@@ -1,0 +1,15 @@
+{
+  "name": "atividadeCrud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "filme": "node  filme.js",
+    "musica": "node musica.js",
+    "produtos": "node produtos.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

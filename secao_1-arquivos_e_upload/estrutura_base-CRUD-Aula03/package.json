@@ -1,0 +1,13 @@
+{
+  "name": "estrutura_base-CRUD-Aula03",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./backend/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
